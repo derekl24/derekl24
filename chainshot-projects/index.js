@@ -8,7 +8,7 @@
 const axios = require('axios');
 
 // copy-paste your URL from Alchemy
-const ALCHEMY_URL = "https://eth-mainnet.alchemyapi.io/v2/fXikIvaYIRxC6pxkf7Kd-4f-h93Z1TDF";
+const ALCHEMY_URL = " <insert alchemy URL> ";
 
 async function main() {
   const response = await axios.post(ALCHEMY_URL, [
